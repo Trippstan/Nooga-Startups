@@ -1,0 +1,84 @@
+- content_for :title do
+  Post
+%section#post
+  .row
+    .large-12.columns
+      %h1
+        Post a job
+  .row
+    .large-8.columns
+      .section-container.tabs{"data-section" => ""}
+        %section.section
+          .content{"data-slug" => "panel1"}
+            %form
+              .row.collapse
+                .large-3.columns
+                  %label.inline Job Title
+                .large-9.columns
+                  %input#yourName{placeholder: "", type: "text"}/
+              .row.collapse
+                .large-3.columns
+                  %label.inline Job Location
+                .large-9.columns
+                  %input#yourEmail{placeholder: "Example: 'Chattanooga', 'Remotely' ", type: "text"}/
+              .row.collapse
+                .large-3.columns
+                  %label Job Type
+                .large-9.columns
+                  %input{name: "pokemon", type: "radio", value: "Full"}/
+                  %label{for: "pokemonRed"} Full Time
+                  %input{name: "pokemon", type: "radio", value: "Part"}/
+                  %label{for: "pokemonBlue"} Part Time
+                  %input{name: "pokemon", type: "radio", value: "Temp"}/
+                  %label{for: "pokemonBlue"} Temporary
+              .row.collapse
+                .large-3.columns
+                  %label.inline Description
+                .large-9.columns
+                  %textarea{rows:"8", placeholder: ""}
+              .row.collapse
+                .large-3.columns
+                  %label.inline Company Name
+                .large-9.columns
+                  %input#yourEmail{placeholder: "", type: "text"}/
+              .row.collapse
+                .large-3.columns
+                  %label.inline Company URL
+                .large-9.columns
+                  %input#yourEmail{placeholder: "", type: "text"}/
+              .row.collapse
+                .large-3.columns
+                  %label.inline Apply URL
+                .large-9.columns
+                  %input#yourEmail{placeholder: "Optional", type: "text"}/
+              .row.collapse
+                .large-3.columns
+                  %label.inline Apply Email
+                .large-9.columns
+                  %input#yourEmail{placeholder: "", type: "text"}/
+              %a.button.cancel.right{href: "#", type: "cancel"} Cancel
+              %a.button.right{href: "/pages/apply", type: "submit"} Submit Job
+    .large-4.columns
+      .panel
+        %h3 Why post a job?
+        %br/
+        %p Nooga startups is a  Job Board, by the community for the community.
+
+        %p When you post on this board, your job post is tweeted to the Nooga Startups twitter account and will be put in the job section of the Nooga startups website for one month.
+
+        %p Nooga Startups is the best resource to fill your positions with motivated and passionate developers and designers who love their craft.
+
+  %footer.row
+    .large-12.columns
+      %hr/
+      .row
+        .large-6.columns
+          %p © Copyright no one at all. Go to town.
+        .large-6.columns
+          %ul.inline-list.right
+            %li
+              %a{href: "#"} About
+            %li
+              %a{href: "#"} Jobs
+            %li
+              %a{href: "#"} Twitter

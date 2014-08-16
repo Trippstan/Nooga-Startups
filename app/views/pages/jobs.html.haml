@@ -1,0 +1,83 @@
+- content_for :title do
+  Jobs
+%section#jobs
+  .row
+    .large-12.columns
+      %h1
+        Jobs
+  .row
+    .large-8.columns
+      .row.collapse
+        .small-10.columns
+          %input{placeholder: "Search jobs, companies, or locations...", type: "text"}/
+        .small-2.columns
+          %a.button.postfix{href: "#"} Go
+      .row
+        .small-12.columns
+          %table
+            %thead
+              %tr
+                %th{width: "300"} Description
+                %th{width: "200"} Company
+                %th{width: "150"} Date
+            %tbody
+              %tr
+                %td
+                  %a{href: "#"} Lead Developer
+                %td Bellhops
+                %td 2 June
+              %tr
+                %td
+                  %a{href: "#"} Python Developer
+                %td Ambition
+                %td 2 June
+              %tr
+                %td
+                  %a{href: "#"} Senior Video Technician
+                %td Fancy Rhino
+                %td 2 June
+              %tr
+                %td
+                  %a{href: "#"} Sales
+                %td Bellhops
+                %td 2 June
+              %tr
+                %td
+                  %a{href: "#"} Recruiter
+                %td Waypaver
+                %td 2 June
+              %tr
+                %td
+                  %a{href: "#"} Sales
+                %td Ambition
+                %td 2 June
+              %tr
+                %td
+                  %a{href: "#"} Senior Engineer
+                %td Ambiton
+                %td 2 June
+
+    .large-4.columns
+      %a.button{href: "/pages/post"} Post a job
+      %p
+        Nooga Startups is a job board, open sourced for developers and designers.
+      %p
+        Find a position at a startup with motivated and passionate developers and designers who love their craft.
+      %p
+        Questions or comments please contact us
+        %a{href: "mailto:meghan.o'dea@lamppostgroup.com?subject=Nooga Startups Job Board"}here.
+  %footer
+    .row
+      .large-12.columns
+        %hr/
+        .row
+          .large-6.columns
+            %p © Copyright no one at all. Go to town.
+          .large-6.columns
+            %ul.inline-list.right
+              %li
+                %a{href: "#"} About
+              %li
+                %a{href: "#"} Jobs
+              %li
+                %a{href: "#"} Twitter
