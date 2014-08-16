@@ -1,6 +1,5 @@
 tmp/
-config/
+log/
 *.DS_Store
 img/startups/.DS_Store
 img/.DS_Store
-.DS_Store

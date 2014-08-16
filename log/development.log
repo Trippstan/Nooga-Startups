@@ -25041,3 +25041,66 @@ Processing by HomeController#new as HTML
   Rendered layouts/_navigation.html.haml (0.8ms)
   Rendered layouts/_messages.html.haml (0.2ms)
 Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 12:06:02 -0400
+Processing by HomeController#new as HTML
+  Rendered layouts/_footer.html.haml (3.6ms)
+  Rendered home/new.html.haml within layouts/application (82.0ms)
+  Rendered layouts/_navigation.html.haml (2.8ms)
+  Rendered layouts/_messages.html.haml (1.6ms)
+Completed 200 OK in 354ms (Views: 338.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 12:06:53 -0400
+Processing by HomeController#new as HTML
+  Rendered layouts/_footer.html.haml (0.2ms)
+  Rendered home/new.html.haml within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.haml (0.5ms)
+  Rendered layouts/_messages.html.haml (0.1ms)
+Completed 200 OK in 235ms (Views: 234.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 12:07:10 -0400
+Processing by HomeController#new as HTML
+  Rendered layouts/_footer.html.haml (0.2ms)
+  Rendered home/new.html.haml within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.haml (1.2ms)
+  Rendered layouts/_messages.html.haml (0.2ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 12:07:19 -0400
+Processing by HomeController#new as HTML
+  Rendered layouts/_footer.html.haml (0.1ms)
+  Rendered home/new.html.haml within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_messages.html.haml (0.3ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 12:08:20 -0400
+Processing by HomeController#new as HTML
+  Rendered layouts/_footer.html.haml (2.1ms)
+  Rendered home/new.html.haml within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.haml (0.9ms)
+  Rendered layouts/_messages.html.haml (0.2ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2014-08-16 12:09:01 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.haml within layouts/application (15.6ms)
+  Rendered layouts/_navigation.html.haml (2.9ms)
+  Rendered layouts/_messages.html.haml (3.0ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 12:14:36 -0400
+Processing by HomeController#new as HTML
+  Rendered layouts/_footer.html.haml (2.5ms)
+  Rendered home/new.html.haml within layouts/application (32.2ms)
+  Rendered layouts/_navigation.html.haml (0.5ms)
+  Rendered layouts/_messages.html.haml (0.2ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
